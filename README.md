@@ -1,8 +1,21 @@
+[![Test](https://github.com/Paidly/strapi-plugin-reading-time/actions/workflows/test.yaml/badge.svg)](https://github.com/Paidly/strapi-plugin-reading-time/actions/workflows/test.yaml)
+
 # Strapi Plugin Reading Time
 
 
 A plugin for [Strapi](https://github.com/strapi/strapi) that provides the ability to calculate the reading time for a piece of content
 
+
+## Installation
+
+To install the Strapi Plugin Reading Time, simply run one of the following command:
+
+```
+npm install strapi-plugin-reading-time
+```
+```
+yarn add strapi-plugin-reading-time
+```
 
 ## Requirements
 
@@ -42,3 +55,6 @@ module.exports = ({ env }) => ({
 ```
 
 This will listen for any record created or updated in the `article` content type and set the display time to read value for the `readingTime` field automatically based on the `content` field.
+
+## License
+This plugin is licensed under the MIT License. See the [LICENSE](https://github.com/Paidly/strapi-plugin-reading-time/blob/main/LICENSE) file for more information.
